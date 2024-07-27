@@ -1,0 +1,25 @@
+.perfil {
+    display: flex;
+    padding: 2rem 1rem;
+    align-items: center;
+}
+
+.perfil__textos {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.perfil__titulo {
+    font-weight: 700;
+    font-size: 1.4rem;
+    color: var(--cor-grafite);
+}
+
+.perfil__subtitulo {
+    font-weight: 400;
+    font-size: 0.88rem;
+    color: var(--cor-prata-fosca);
+}

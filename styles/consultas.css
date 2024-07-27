@@ -1,0 +1,98 @@
+.consultas {
+    padding: 0rem 1rem;
+}
+
+.consultas__dia {
+    font-weight: 700;
+    color: var(--cor-grafite);
+    padding: 1rem 0rem;
+}
+
+.consultas__lista {
+    background-color: var(--cor-branco);
+    border: 1px solid var(--cor-branco-borda);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.lista__container-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: cer;
+    padding: 1rem;
+}
+
+.lista__container-superior__textos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4.5rem;
+    gap: 0.3rem;
+}
+
+.lista__container-superior__textos__nome {
+    font-weight: 700;
+    font-size: 0.88rem;
+    color: var(--cor-grafite);
+}
+
+.lista__container-superior__textos__informacao {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.lista__container-superior__textos__informacao__texto {
+    font-size: 0.75rem;
+    color: var(--cor-prata-fosca);
+}
+
+.consultas__tracejado {
+    margin: 0;
+    background-color: var(--cor-grafite-10);
+    border: none;
+    height: 1px;
+}
+
+.lista__container-inferior {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem 1rem;
+}
+
+.lista__container-inferior__horario {
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--cor-grafite);
+    padding-bottom: 0.55rem;
+}
+
+.lista__container-inferior__botoes {
+    display: flex;
+    gap: 1.13rem;
+}
+
+.lista__container-inferior__botoes__video, .lista__container-inferior__botoes__audio, .lista__container-inferior__botao {
+    font-weight: 500;
+    font-size: 0.88rem;
+    border-radius: 8px;
+    padding: 0.87rem 1rem;
+}
+
+.lista__container-inferior__botoes__video {
+    background-color: var(--cor-amarelo);
+    color: var(--cor-branco);
+    border: none;
+}
+
+.lista__container-inferior__botoes__audio {
+    background-color: var(--cor-branco);
+    border: 1px solid var(--cor-branco-borda);
+    color: var(--cor-grafite);
+}
+
+.lista__container-inferior__botao {
+    text-decoration: none;
+    background-color: var(--cor-azul-bebe);
+    color: var(--cor-branco);
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.cabecalho {
+    background-color: var(--cor-branco);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.cabecalho__tempo {
+    font-size: 0.88rem;
+    color: var(--cor-antracito);
+}
+
+.cabecalho__icones {
+    display: flex;
+    gap: 1rem;
+}

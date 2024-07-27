@@ -1,0 +1,24 @@
+@import url("header.css");
+@import url("perfil.css");
+@import url("consultas.css");
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-antracito: #333333;
+    --cor-aurora-palstel: linear-gradient(to right, #F8F4FF, #EFF0F4);
+    --cor-grafite: #464646;
+    --cor-grafite-10: rgba(70, 70, 70, 0.1);
+    --cor-prata-fosca: #A3A3A3;
+    --cor-branco-borda: #ECECEC;
+    --cor-amarelo: #FFB050;
+    --cor-azul-bebe: #4894FF;
+
+    --fonte-principal: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+    font-size: 1rem; 
+    background: var(--cor-aurora-palstel);
+}

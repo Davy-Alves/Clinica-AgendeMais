@@ -1,6 +1,7 @@
 @import url("header.css");
 @import url("perfil.css");
 @import url("consultas.css");
+@import url("footer.css");
 
 :root {
     --cor-branco: #FFFFFF;
@@ -21,4 +22,5 @@ body {
     font-weight: 400;
     font-size: 1rem; 
     background: var(--cor-aurora-palstel);
+    padding-bottom: 3rem;
 }

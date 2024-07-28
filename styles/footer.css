@@ -1,0 +1,46 @@
+.rodape {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape__botao {
+    background-color: transparent;
+    border: none;
+}
+
+.rodape__menu {
+    background-color: var(--cor-branco);
+    padding: 0.5rem;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.rodape__menu__lista {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.rodape__menu__lista__item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.25rem;
+}
+
+.rodape__menu__lista__item img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.rodape__menu__lista__item__texto {
+    font-size: 0.75rem;
+    color: var(--cor-grafite);
+}
+
+#consultas {
+    color: var(--cor-azul-bebe);
+}

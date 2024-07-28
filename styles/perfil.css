@@ -8,7 +8,7 @@
     padding-left: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.65rem;
 }
 
 
@@ -22,4 +22,19 @@
     font-weight: 400;
     font-size: 0.88rem;
     color: var(--cor-prata-fosca);
+}
+
+@media screen and (min-width: 1440px) {
+
+    .perfil__foto {
+        width: 6vw;
+    }
+
+    .perfil__titulo {
+        font-size: 1.94rem;
+    }
+
+    .perfil__subtitulo {
+        font-size: 1.13rem;
+    }
 }

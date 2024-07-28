@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,11 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
 
     <header class="cabecalho">
@@ -21,7 +24,7 @@
             <img src="assets/header/wifi.svg" alt="Icone do sinal de wifi">
         </div>
     </header>
-    
+
 
     <section class="perfil">
         <img class="perfil__foto" src="assets/perfil/fotoDePerfil.svg" alt="Foto de Perfil">
@@ -34,244 +37,347 @@
 
     <section class="consultas">
         <h3 class="consultas__dia">Hoje</h3>
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+        <ul class="consultas__lista">
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                            <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg"
+                                alt="Foto de perfil">
+                            <div class="lista__container-superior__textos">
+                                <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
+                                <div class="lista__container-superior__textos__informacao">
+                                    <img class="lista__container-superior__textos__informacao__icone"
+                                        src="assets/consultas/Camera.svg" alt="Icone de camera">
+                                    <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/pin.svg" alt="Icone de Mapa">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                            <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg"
+                                alt="Foto de perfil">
+                            <div class="lista__container-superior__textos">
+                                <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
+                                <div class="lista__container-superior__textos__informacao">
+                                    <img class="lista__container-superior__textos__informacao__icone"
+                                        src="assets/consultas/pin.svg" alt="Icone de Mapa">
+                                    <p class="lista__container-superior__textos__informacao__texto">Consulta no local
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
+                        <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
-                <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                            <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg"
+                                alt="Foto de perfil">
+                            <div class="lista__container-superior__textos">
+                                <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
+                                <div class="lista__container-superior__textos__informacao">
+                                    <img class="lista__container-superior__textos__informacao__icone"
+                                        src="assets/consultas/Camera.svg" alt="Icone de camera">
+                                    <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
+            </li>
+        </ul>
 
         <h3 class="consultas__dia">Amanhã</h3>
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil4.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Clara Lemos</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/pin.svg" alt="Icone de Mapa">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+        <ul class="consultas__lista">
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                            <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil4.svg"
+                                alt="Foto de perfil">
+                            <div class="lista__container-superior__textos">
+                                <h4 class="lista__container-superior__textos__nome">Clara Lemos</h4>
+                                <div class="lista__container-superior__textos__informacao">
+                                    <img class="lista__container-superior__textos__informacao__icone"
+                                        src="assets/consultas/pin.svg" alt="Icone de Mapa">
+                                    <p class="lista__container-superior__textos__informacao__texto">Consulta no local
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">18:00 - 19:00 - (1 hora)</h5>
+                        <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <div class="lista__container-inferior">
-                    <h5 class="lista__container-inferior__horario">18:00 - 19:00 - (1 hora)</h5>
-                    <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de Camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/Camera.svg" alt="Icone de Camera">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="Icone de Mensagem">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/Camera.svg" alt="Icone de camera">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/pin.svg" alt="Icone de Mapa">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+            </li class="consultas__lista-lista">
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/pin.svg" alt="Icone de Mapa">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
+                        <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                    <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
-                    <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
-                </div>
-            </div>
-        </div>
+            </li>
+        </ul>
 
         <h3 class="consultas__dia">Quarta-feira</h3>
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil4.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Clara Lemos</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/pin.svg" alt="Icone de Mapa">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+        <ul class="consultas__lista">
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil4.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Clara Lemos</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/pin.svg" alt="Icone de Mapa">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">18:00 - 19:00 - (1 hora)</h5>
+                        <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <div class="lista__container-inferior">
-                    <h5 class="lista__container-inferior__horario">18:00 - 19:00 - (1 hora)</h5>
-                    <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de Camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Luciana Dias</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/Camera.svg" alt="Icone de Camera">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                            </div>
+                            </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">14:00 - 15:00 (1 hora)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/Camera.svg" alt="Icone de camera">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil3.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Marcos Correia</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/Camera.svg" alt="Icone de camera">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta remota</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
+                        <div class="lista__container-inferior__botoes">
+                            <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
+                            <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
+                        </div>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                <h5 class="lista__container-inferior__horario">17:20 - 18:00 (40 minutos)</h5>
-                <div class="lista__container-inferior__botoes">
-                    <button class="lista__container-inferior__botoes__video">Ligar por vídeo</button>
-                    <button class="lista__container-inferior__botoes__audio">Ligar por áudio</button>
-                </div>
-            </div>
-        </div>
-
-        <div class="consultas__lista">
-            <div class="lista__container-superior">
-                <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg" alt="Foto de perfil">
-                <div class="lista__container-superior__textos">
-                    <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
-                    <div class="lista__container-superior__textos__informacao">
-                        <img class="lista__container-superior__textos__informacao__icone" src="assets/consultas/pin.svg" alt="Icone de Mapa">
-                        <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+            </li>
+            <li class="consultas__lista-lista">
+                <div class="consultas__lista__container">
+                    <div class="lista__container-superior">
+                        <div class="lista__container-superior-esquerdo">
+                        <img class="lista__container-superior__foto" src="assets/consultas/fotoDePerfil2.svg"
+                            alt="Foto de perfil">
+                        <div class="lista__container-superior__textos">
+                            <h4 class="lista__container-superior__textos__nome">Larissa Santana</h4>
+                            <div class="lista__container-superior__textos__informacao">
+                                <img class="lista__container-superior__textos__informacao__icone"
+                                    src="assets/consultas/pin.svg" alt="Icone de Mapa">
+                                <p class="lista__container-superior__textos__informacao__texto">Consulta no local</p>
+                            </div>
+                        </div>
+                        </div>
+                        <img class="lista__container-superior__textos__imagem"
+                            src="assets/consultas/iconeDeMensagem.svg" alt="">
+                    </div>
+                    <hr class="consultas__tracejado">
+                    <div class="lista__container-inferior">
+                        <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
+                        <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
                     </div>
                 </div>
-                <img class="lista__container-superior__textos__imagem" src="assets/consultas/iconeDeMensagem.svg" alt="">   
-            </div>
-            <hr class="consultas__tracejado">
-            <div class="lista__container-inferior">
-                    <h5 class="lista__container-inferior__horario">16:00 - 17:00 - (1 hora)</h5>
-                    <a class="lista__container-inferior__botao" href="#">Ver endereço</a>
-                </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </section>
 
 
+    <footer class="rodape">
+        <button class="rodape__botao"><img src="assets/footer/Botão flutuante.svg" alt=""></button>
+        <section class="rodape__menu">
+            <ul class="rodape__menu__lista">
+                <li>
+                    <a class="rodape__menu__lista__item" href="#">
+                        <img src="assets/footer/Calendarioicone.svg" alt="Icone de um calendario">
+                        <span class="rodape__menu__lista__item__texto" id="consultas">Consultas</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape__menu__lista__item" href="#">
+                        <img src="assets/footer/clientes icone.svg" alt="Icone de clientes">
+                        <span class="rodape__menu__lista__item__texto">Clientes</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape__menu__lista__item" href="#">
+                        <img src="assets/footer/relatorios icone.svg" alt="Icone de relatorios">
+                        <span class="rodape__menu__lista__item__texto">Relatórios</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="rodape__menu__lista__item" href="#">
+                        <img src="assets/footer/menu icone.svg" alt="Icone de menu">
+                        <span class="rodape__menu__lista__item__texto">Menu</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+
+
 </body>
+
 </html>

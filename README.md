@@ -1,24 +1,32 @@
-<h1>Clínica AgendeMais - Página Responsiva</h1>
+<h1>📅 Clínica AgendeMais - Página Responsiva</h1>
 
 <h2>Descrição</h2>
-<p>Este projeto foi desenvolvido para a Clínica AgendeMais, permitindo que médicos e médicas contratados controlem todas as suas consultas agendadas, sejam elas presenciais ou remotas. A página é totalmente responsiva, garantindo uma ótima experiência em diferentes dispositivos.</p>
+<p>🏥 Este projeto foi desenvolvido para a Clínica AgendeMais, permitindo que médicos e médicas contratados controlem todas as suas consultas agendadas, sejam elas presenciais ou remotas. A página é totalmente responsiva, garantindo uma ótima experiência em diferentes dispositivos.</p>
 
 <h2>Funcionalidades</h2>
 
 <h3>Primeira Versão</h3>
 <ul>
-    <li><strong>Início do Projeto:</strong> Implementação inicial da página responsiva para a Clínica AgendeMais.</li>
-    <li><strong>Cabeçalho:</strong> Criação do cabeçalho da página.</li>
-    <li><strong>Lista de Consultas:</strong> Implementação da lista de consultas, seguindo a abordagem Mobile First com base no layout fornecido no Figma.</li>
+    <li><strong>🚀 Início do Projeto:</strong> Implementação inicial da página responsiva para a Clínica AgendeMais.</li>
+    <li><strong>🔝 Cabeçalho:</strong> Criação do cabeçalho da página.</li>
+    <li><strong>📋 Lista de Consultas:</strong> Implementação da lista de consultas, seguindo a abordagem Mobile First com base no layout fornecido no Figma.</li>
 </ul>
 
 <h3>Segunda Versão</h3>
 <ul>
-    <li><strong>Transformação das Consultas:</strong> As consultas foram convertidas em uma lista não ordenada, facilitando possíveis modificações futuras na ordem dos elementos.</li>
-    <li><strong>Ajuste de Tamanho dos Botões:</strong> Correção do tamanho de botões, como "Ver Endereço", eliminando duplicações de divs que causavam redução no tamanho.</li>
-    <li><strong>Uniformização dos Containers:</strong> Ajuste do tamanho dos containers para garantir uniformidade visual, corrigindo variações de tamanho entre containers com um e dois botões.</li>
-    <li><strong>Adição de Footer:</strong> Inclusão de um footer com um botão "+" que acompanha a rolagem da página.</li>
-    <li><strong>Melhoria na Responsividade:</strong> Aperfeiçoamento da responsividade para tablets e desktops, proporcionando uma melhor experiência de uso.</li>
+    <li><strong>🔄 Transformação das Consultas:</strong> As consultas foram convertidas em uma lista não ordenada, facilitando possíveis modificações futuras na ordem dos elementos.</li>
+    <li><strong>🔧 Ajuste de Tamanho dos Botões:</strong> Correção do tamanho de botões, como "Ver Endereço", eliminando duplicações de divs que causavam redução no tamanho.</li>
+    <li><strong>⚖️ Uniformização dos Containers:</strong> Ajuste do tamanho dos containers para garantir uniformidade visual, corrigindo variações de tamanho entre containers com um e dois botões.</li>
+    <li><strong>➕ Adição de Footer:</strong> Inclusão de um footer com um botão "+" que acompanha a rolagem da página.</li>
+    <li><strong>📱 Melhoria na Responsividade:</strong> Aperfeiçoamento da responsividade para tablets e desktops, proporcionando uma melhor experiência de uso.</li>
+</ul>
+
+<h3>Terceira Versão</h3>
+<ul>
+    <li><strong>➡️ Botão (+):</strong> Mudança de posição do botão "+" do lado esquerdo para o lado direito da página.</li>
+    <li><strong>🖼️ Configuração do Botão:</strong> Alteração da forma de configuração do botão, utilizando <code>background-image</code> no CSS em vez de <code>img</code> no HTML.</li>
+    <li><strong>✨ Animação dos Botões:</strong> Adição de uma animação de troca de cor para todos os botões ao serem ativados.</li>
+    <li><strong>🎨 Seção Perfil:</strong> Inclusão de um background discreto na seção perfil para melhorar a estética da página.</li>
 </ul>
 
 <h2>Instalação</h2>
@@ -48,6 +56,14 @@
     <li>Uniformização dos containers para garantir tamanhos consistentes.</li>
     <li>Adição de um footer dinâmico com um botão "+".</li>
     <li>Melhorias na responsividade para tablets e desktops.</li>
+</ul>
+
+<h3>Terceira Versão</h3>
+<ul>
+    <li>Troca de posição do botão "+" do lado esquerdo para o lado direito.</li>
+    <li>Configuração do botão alterada para utilizar <code>background-image</code> no CSS em vez de <code>img</code> no HTML.</li>
+    <li>Adição de animação de troca de cor para todos os botões ao serem ativados.</li>
+    <li>Inclusão de um background discreto na seção perfil para melhorar a estética.</li>
 </ul>
 
 <h2>Contato</h2>

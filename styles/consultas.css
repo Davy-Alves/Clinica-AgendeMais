@@ -63,7 +63,7 @@
 .lista__container-inferior {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem 1rem 1rem;
+    padding: 1rem 1rem 1rem;
     justify-content: center;
 }
 
@@ -85,7 +85,7 @@
     font-weight: 500;
     font-size: 0.88rem;
     border-radius: 8px;
-    padding: 0.87rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .lista__container-inferior__botoes__video {
@@ -94,10 +94,18 @@
     border: none;
 }
 
+.lista__container-inferior__botoes__video:active {
+    background-color: var(--cor-amarelo-active);
+}
+
 .lista__container-inferior__botoes__audio {
     background-color: var(--cor-branco);
     border: 1px solid var(--cor-branco-borda);
     color: var(--cor-grafite);
+}
+
+.lista__container-inferior__botoes__audio:active {
+    background-color: var(--cor-branco-active);
 }
 
 .lista__container-inferior__botao {
@@ -105,6 +113,10 @@
     background-color: var(--cor-azul-bebe);
     color: var(--cor-branco);
     text-align: center;
+}
+
+.lista__container-inferior__botao:active {
+    background-color: var(--cor-azul-bebe-active);
 }
 
 

@@ -4,9 +4,25 @@
     width: 100%;
 }
 
+.rodape__botao__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0.45rem;
+}
+
 .rodape__botao {
+    width: 80px;
+    height: 80px;
     background-color: transparent;
     border: none;
+    padding: 0;
+    background-image: url("../assets/footer/Botão\ flutuante.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rodape__botao:active {
+    background-image: url("../assets/footer/Botão\ flutuante\ ativado.svg");
 }
 
 .rodape__menu {

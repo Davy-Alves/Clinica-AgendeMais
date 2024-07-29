@@ -5,14 +5,18 @@
 
 :root {
     --cor-branco: #FFFFFF;
+    --cor-branco-active: #CCCCCC;
     --cor-antracito: #333333;
-    --cor-aurora-palstel: linear-gradient(to right, #F8F4FF, #EFF0F4);
+    --cor-aurora-pastel: linear-gradient(to right, #F8F4FF, #EFF0F4);
+    --cor-aurora-pastel-dark: linear-gradient(to right, #F6F6FB, #EAEAF4);
     --cor-grafite: #464646;
     --cor-grafite-10: rgba(70, 70, 70, 0.1);
     --cor-prata-fosca: #A3A3A3;
     --cor-branco-borda: #ECECEC;
     --cor-amarelo: #FFB050;
+    --cor-amarelo-active: #D68E42;
     --cor-azul-bebe: #4894FF;
+    --cor-azul-bebe-active: #3A76CC;
 
     --fonte-principal: "Montserrat", sans-serif;
 }
@@ -21,6 +25,6 @@ body {
     font-family: var(--fonte-principal);
     font-weight: 400;
     font-size: 1rem; 
-    background: var(--cor-aurora-palstel);
+    background: var(--cor-aurora-pastel);
     padding-bottom: 3rem;
 }

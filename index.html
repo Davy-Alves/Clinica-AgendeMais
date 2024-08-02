@@ -348,6 +348,45 @@
     </section>
 
 
+    <section class="formulario">
+        <div class="formulario__cabecalho">
+            <h1 id="titulo">Novo Agendamento</h2>
+                <h2 id="subtitulo">Preencha os campos abaixo para agendar uma nova consulta</h2>
+        </div>
+        <form class="formulario__grupo">
+            <fieldset class="formulario__grupo__botao-none">
+                <div class="formulario__grupo__esquerda">
+                    <div class="formulario__nome">
+                        <label for="nome">Nome do Paciente:</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="formulario__tipo">
+                        <label>Tipo de Consulta: </label>
+                        <select id="tipo" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option>Remoto</option>
+                            <option>Presencial</option>
+                        </select>
+                    </div>
+                    <div class="formulario__data">
+                        <label>Data da Consulta:</label>
+                        <input type="date" name="data" id="data" required>
+                    </div>
+                    <div class="formulario__horario">
+                        <label>Horário da Consulta:</label>
+                        <input type="time" nome="horario" id="horario" required>
+                    </div>
+                </div>
+                <div class="formulario__observacao">
+                    <label>Observações:</label>
+                    <textarea rows="10" name="" id=""></textarea>
+                </div>
+            </fieldset>
+            <button id="formulario__botao" type="submit">Criar Agendamento</button>
+        </form>
+    </section>
+
+
     <footer class="rodape">
         <div class="rodape__botao__container">
             <button class="rodape__botao"></button>

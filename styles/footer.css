@@ -60,3 +60,10 @@
 #consultas {
     color: var(--cor-azul-bebe);
 }
+
+@media screen and (min-width: 1440px) {
+
+    .rodape__botao__container {
+        display: none;
+    }
+}

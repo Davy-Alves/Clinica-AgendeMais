@@ -29,6 +29,13 @@
     <li><strong>🎨 Seção Perfil:</strong> Inclusão de um background discreto na seção perfil para melhorar a estética da página.</li>
 </ul>
 
+<h3>Quarta Versão</h3>
+<ul>
+    <li><strong>🔧 Ajuste de Tela para Tablets:</strong> Corrigido o media query para 768px, resolvendo bugs que surgiram devido à configuração incorreta anterior de 728px.</li>
+    <li><strong>❌ Remoção do Botão Azul (+) para Telas Grandes:</strong> O botão azul "+" foi removido para telas com largura de 1440px ou mais.</li>
+    <li><strong>📝 Adição de Formulário Simples:</strong> Inclusão de um formulário básico para telas de 1440px ou mais, criado devido à falta de modelos de inspiração.</li>
+</ul>
+
 <h2>Instalação</h2>
 <ol>
     <li>Clone o repositório:
